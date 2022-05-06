@@ -9,7 +9,6 @@ Train::Cage *Train::create(bool light) {
 Train::Train() {
   first = current = nullptr;
   countOp = length = Count = 0;
-  countOp = length = Count = 0;
 }
 void Train::addCage(bool light) {
   if (!(first)) {
